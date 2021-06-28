@@ -3,7 +3,8 @@ h1{
     font-display: fallback
 }
 body{
-    background:  #ff9933;
+    background:  #e0b589;
+    font-size: larger;
 }
 .my-img{
     width: 40%;
@@ -45,7 +46,7 @@ ul {
   }
   ul li::before {
     content: "\2022";
-    color: yellowgreen;
+    color: black;
     font-weight: bold;
     display: inline-block; 
     width: 1em;
