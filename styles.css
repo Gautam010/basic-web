@@ -2,6 +2,36 @@ h1{
     font-family: "Lucida Console", "Courier New", monospace;   
     font-display: fallback
 }
+html {
+    scroll-behavior: smooth;
+  }
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+header{
+    background: #55d6aa;
+}
+header::after {
+    content:'';
+    display: table;
+    clear: both;
+}
+
+nav{
+    float: right;
+}
+nav ul{
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+    margin-left: 70px;
+}
+
 body{
     background:  #e0b589;
     font-size: larger;
@@ -9,6 +39,7 @@ body{
 .my-img{
     width: 40%;
     float: right;
+    margin: auto;
 }
 
 .my-img img
