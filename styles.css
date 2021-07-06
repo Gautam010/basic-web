@@ -2,9 +2,14 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.hi{
+    padding top: 50px;
+}
+
 h1{
     font-family: "Lucida Console", "Courier New", monospace;   
-    font-display: fallback
+    font-display: fallback;
 }
 html {
     scroll-behavior: smooth;
@@ -53,10 +58,10 @@ body{
 .my-img{
     width: 24vw;
     float: right;
-    margin: auto;
+    margin:  0 auto;
     border-radius: 50%;
     float: none;
-    
+    display: block;
 }
 
 .my-img img
