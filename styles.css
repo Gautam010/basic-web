@@ -54,7 +54,6 @@ body{
     width: 24vw;
     float: right;
     margin: auto;
-    height: 50vh; 
     border-radius: 50%;
 }
 
@@ -147,10 +146,10 @@ font-family: cursive;
     background: #ddd;
     color: black;
   }  
-  @media all and (min-width: 50em) {
+  @media all and (min-width: 800px) {
     .column {
         float: left;
-        width: 50%;
+        width: 40%;
     }
 }
 
