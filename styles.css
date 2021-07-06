@@ -55,13 +55,15 @@ body{
     float: right;
     margin: auto;
     border-radius: 50%;
+    float: none;
+    
 }
 
 .my-img img
 {
     width: 100%;
     height: 10%;
-    
+    /* float: none; */
 }
 .h2-teal
 {
