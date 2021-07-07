@@ -3,16 +3,23 @@
     box-sizing: border-box;
 }
 
+
+
 .hi{
-    padding top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
 }
 
 h1{
     font-family: "Lucida Console", "Courier New", monospace;   
     font-display: fallback;
 }
-html {
+body {
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
     scroll-behavior: smooth;
+    background-size: cover;
+    font-size: 2.5rem;
   }
 
 .container{
@@ -21,6 +28,7 @@ html {
 }
 header{
     background: #11e91b;
+    border-style: groove;
 }
 header::after {
     content:'';
@@ -51,10 +59,8 @@ nav li a{
     text-decoration: none;
 }
 
-body{
-    background:  rgb(217, 250, 32);
-    font-size: 2.5rem;
-}
+
+
 .my-img{
     width: 24vw;
     float: right;
