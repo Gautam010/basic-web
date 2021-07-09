@@ -178,6 +178,8 @@ font-family: cursive;
 {
     float: left;
     list-style: none;
+    text-align: center;
+    padding-left:700px ;
     
 }
 
